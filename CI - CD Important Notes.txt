@@ -1,0 +1,113 @@
+CI / CD = Continuous Integration Continuous Delivery
+
+Unit testing : testing the unit part code
+Integration testing : testing the integration of the different features and modules
+Deployment : Pushing the developed software on the internet.
+
+=> CI/CD is generally handled by the DevOps team
+=> denoted by infinity Sign
+=> Taking the process towards automation and speed with less manual intervention
+
+Steps Involved in CI/CD
+
+1. Development => software is developed by the developers
+2. Commit => Code is committed to a platform like GitHub and git lab.
+3. Build => code and project is converted into executable binary files
+4. Test => Testing of the Software is done
+5. Release => Code is publicly released to use by users, its measure part is deployment
+6. Deploy => Software is deployed on the environment.
+	Stages of Deployment :  Dev
+				Staging
+				Production => Deployed to be used by the users. This is what the final user will see.
+
+=> In an Organisation these above are the different levels where deployment can be done.
+
+# Canary rollout : This is a method in which a company firstly release the new features/changes for some users only, and based on the feedback and efficiency they decide whether to rollout for everyone or not.
+
+# CI/CD Tools
+
+@ CI/CD can be performed using any of the below tools
+
+=> GitHub Actions
+=> Jenkins
+=> Circle CI
+=> Travis CI
+=> Gitlab CI CD
+=> Bamboo
+
+# GitHub Actions :  A platform which we use to automate developers workflow, that is it automates the set of actions for us.
+=> GitHub Actions consists various preset workflows and also offers us to define a workflow fr 
+=> Event : any change in the members, accessibility, new code, etc is the event.
+
+# GitHub Actions Workflow : Develop app (MERN, etc) -> Push Repo to GitHub (triggers the event) -> GitHub Actions Workflow triggered -> build and deploy using AWS EC2(other options are also available) -> Available to Users
+
+=> New workflow is defined in .yml file which describes the flow of jobs. This .yml file has the structure of the workflow and automatically executes the workflow based on the particular event defined in the .yml file. There may be more than one Jobs which can be performed on triggering the event. .yml file executes the jobs on the servers( either on GitHub Server / aws / local server / azure or some server connected by pc).
+
+=> Now we have test.js file to test all the changes and working using npm test, but this is a mannual preocess, so therefore to automate this process we use CI/CD. 
+=> To perform these steps we use github actions under which we define a .yaml file which runs and test our code on the mentioned changes. This will ensure the code will deploy only when all the set os tests are passed.
+
+
+=> Runners : Runners are the place inside the GitHub actions where the testing and execution occures.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
